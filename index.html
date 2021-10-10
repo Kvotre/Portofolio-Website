@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>Personal Website</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-title">Enache Stefan</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contacts</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+</header>
+    <main id="home">      
+        <div class="description">           
+            <h1><span class="tags"><</span>Welcome to my Website<span class="tags">/></span></h1>
+            <h3>_this <span class="intro-style">website</span> was created to keep track of my progress</h3>
+        </div>
+
+        <div id="projects" class="projects">
+            <h2 class="slide-in from-left">Work</h2>
+        </div>
+     
+        <div class="boxes-container">
+           <div class="box-heading">
+               <h1>My projects</h1>
+           </div>
+
+           <div class="storage">
+               <div class="box">
+                 <div class="box-title">
+                     <h1>Tic Tac Toe Game</h1>
+                 </div>
+                 <div class="box-body">
+                     <p>A simple tic tac toe game build in Angular, that uses concepts like <span class="concept-style">Promises,Event Binding,Routing</span> and more.</p>
+                      <a href="#" onclick="socialLinks(event),window.open('https://github.com/Kvotre/Tic-Tac-Toe-Game', '_blank');" class="btn">See project</a>   
+                 </div>
+               </div>
+
+               <div class="box">
+                <div class="box-title">
+                    <h1>Expense App</h1>
+                </div>
+                <div class="box-body">
+                    <p>A budget app application that includes <span class="concept-style">Angular Forms,Angular Material</span> and concepts
+                        like Component Iterations,Routing and others.</p>
+                     <a href="#" onclick="socialLinks(event),window.open('https://github.com/Kvotre/Money-expense-app', '_blank')" class="btn">See project</a>     
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="box-title">
+                    <h1>Duel Game</h1>
+                </div>
+                <div class="box-body">
+                    <p>This is my first game project witch contains way too much variables.
+                    The concept is simple is a battle simulation where one of two characters will win.</p>
+                     <a href="#" onclick="socialLinks(event),window.open('https://github.com/Kvotre/Duel-Game', '_blank')" class="btn">See project</a>     
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="box-title">
+                    <h1>Angular Forms</h1>
+                </div>
+                <div class="box-body">
+                    <p>A form field for personal data information that is user friendly that uses a <span class="concept-style">Server</span>,and is displaying an error
+                        when the information is not optimal.</p>
+                     <a href="#" onclick="socialLinks(event),window.open('https://github.com/Kvotre/Form-Field', '_blank')" class="btn">See project</a>     
+                </div>
+              </div>
+           </div>
+        </div>
+
+        <div class="article-section">
+            <h2 class="article-title">Articles</h2>
+            <p class="article-title-description">Here are some articles worth to read!</p>
+
+            <article class="post-preview">
+                <h2 class="post-preview-title">How meditation helps programmers</h2>
+                <p class="post-preview-description">A quick read revealing how meditation can improve your<br>
+                     focus witch will
+                     have a positive impact<br>
+                     while you are programming.</p>
+                <a class="article-link" href="https://www.freecodecamp.org/news/meditation-will-make-you-a-better-programmer-heres-how-1c0582f675fa/" target="_blank">Read Article</a>     
+            </article>
+
+            <article class="post-preview">
+                <h2 class="post-preview-title">Why learning Angular is a good asset</h2>
+                <p class="post-preview-description">Important angular key features.</p>
+                <a class="article-link" href="https://blog.angular-university.io/why-angular-angular-vs-jquery-a-beginner-friendly-explanation-on-the-advantages-of-angular-and-mvc/?rel=nofollow" target="_blank">Read Article</a>     
+            </article>
+
+           <div class="hided-articles">
+            <article class="post-preview">
+                <h2 class="post-preview-title">How meditation helps you as a programmer</h2>
+                <p class="post-preview-description">A quick read revealing how meditation can improve your focus witch will
+                     have a positive impact while you are programming.</p>
+                <a class="article-link" href="https://www.freecodecamp.org/news/meditation-will-make-you-a-better-programmer-heres-how-1c0582f675fa/" target="_blank">Read Article</a>     
+            </article>
+
+            <article class="post-preview">
+                <h2 class="post-preview-title">How meditation helps you as a programmer</h2>
+                <p class="post-preview-description">A quick read revealing how meditation can improve your focus witch will
+                     have a positive impact while you are programming.</p>
+                <a class="article-link" href="https://www.freecodecamp.org/news/meditation-will-make-you-a-better-programmer-heres-how-1c0582f675fa/" target="_blank">Read Article</a>     
+            </article>
+           </div>  
+            <button class="article-Button">Read More</button>
+        </div>
+
+        <div id="about" class="about-section">
+            <h2 class="slide-in from-left">About</h2>
+            <p>I started to learn programming out of curiosity.
+                 And not very long after that,I was hooked to the satisfaction that you get 
+                 after building a project,or solving a problem. 
+                  <br>
+                  <br>
+                A am the type of person who is constantly learning a new thing whether 
+                is programming, playing guitar or the technical part of cars.
+                You have a certain security when you know how things work.
+                But,of all the things I've learned,programming is certainly the most challenging field,
+                but it also offers the greatest reward.   
+                  <br>
+                  <br>
+                And the most important aspect is that I learned to appreciate the innovations that make our lives easier.
+                Knowing how hard is to create something especially from scratch. 
+                   </p>
+        </div>
+    </main>
+    <div class="line"></div>
+    <footer id="contact">
+        <h1 class="contact-title">Contact Me</h1>
+       <form id="form" name="myForm" action="https://formsubmit.co/ferre.andrei@yahoo.com" method="POST">
+        
+            <div class="input-field">
+              <input class="input-style" type="text" id="name" minlength="3" name="fname" required/>
+              <label class="label-text" for="name">Your name</label>
+            </div>
+
+            <div class="email-field"> 
+              <input class="input-style" type="text" id="email" required />
+              <label class="label-text" for="email">Your email</label>
+            </div>
+
+            <div class="text">
+                <label class="message" for="story">Description</label>
+                     <textarea id="story" name="story" rows="5" cols="33">                           
+                     </textarea>
+            </div>
+            <button class="submit-button" type="submit">Submit</button>
+       </form>
+        <div class="footer-container">      
+                <a href="mailto:ferre.andrei@yahoo.com" target="_blank"> 
+                    <ion-icon class="icon" name="mail-outline"></ion-icon>
+                </a>
+                                 
+                <a href="https://github.com/Kvotre" target="_blank">
+                    <ion-icon class="icon" name="logo-github"></ion-icon>
+                </a>
+                   
+                <a href="https://www.linkedin.com/in/enache-stefan-3888111b5/" target="_blank">
+                    <ion-icon class="icon" name="logo-linkedin"></ion-icon>
+                </a>                                                                    
+        </div>
+    </footer>
+   
+    <script src="main.js"></script> 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
